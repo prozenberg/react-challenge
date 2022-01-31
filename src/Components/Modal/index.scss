@@ -1,0 +1,29 @@
+.modalBG{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .modal{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+        justify-content: center ;
+        background: white;
+        padding: 1rem;
+        border: 1px solid #0077ff;
+        border-radius: 5px;
+       &-input{
+        height: 1.2rem;
+        border-radius: 5px;
+        outline: #0077ff solid 1px;
+        }
+    }
+}

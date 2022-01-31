@@ -1,0 +1,23 @@
+.inputDiv{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    width: 35rem;
+    &-input{
+        height: 1.2rem;
+        border-radius: 5px;
+        outline: #0077ff solid 1px;
+    }
+    &-label{
+        font-weight: 600;
+    }
+    &-button{
+        height: 1.5rem;
+        border-radius: 5px;
+        &:hover{
+            background: #0077ff;
+            color: white;
+        }
+    }
+}
